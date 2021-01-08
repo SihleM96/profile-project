@@ -1,0 +1,525 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+
+    font-family: 'Assistant', sans-serif;
+    line-height: 1.4;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+  
+  
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 0px 2px;
+    position: relative;
+    margin: 0px;
+    
+}
+
+nav ul li a{
+    display: block;
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+nav ul li a:hover{
+    color: #39ff14;
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+}
+
+.container{
+   height: 75vh;
+   background: url('img/cover.jpg') no-repeat center center/cover;
+}
+ 
+.container h1{
+  padding-top: 200px;
+  padding-left: 100px;
+ }
+
+ .container p{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.container-2 {
+    height: 75vh;
+    background: url('img/cover2.jpg') no-repeat center center/cover;
+}
+ 
+.container-2 h1{
+   padding-top: 200px;
+   padding-left: 100px;
+  }
+ 
+.container-2 p{
+     padding-top: 10px;
+     padding-left: 100px;
+ }
+
+nav ul li:hover ul{
+    display: block;
+    color: #39ff14;
+}
+
+nav ul li ul li{
+    width: 180px;
+ }
+
+nav ul li ul li a{
+   padding: 10px 15px;
+}
+
+nav ul li ul li a:hover{
+    background-color: #39ff14;
+    color: black;
+    width: 100%;
+ }
+
+ .container a{
+    display: inline-block;
+    width: 80px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 8px 5px;
+    border:1px solid #39ff14;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+ }
+
+.container a:hover{
+    color: black;
+    background-color:#39ff14;
+    cursor: pointer;
+ }
+
+ #readMore{
+    width: 80px;
+    margin: 2px 0;
+    padding: 8px 5px;
+    border:1px solid #39ff14;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+}
+
+#readMore a{
+text-decoration: none;
+color: black;
+}
+
+#readMore a:hover{
+    color: #39ff14;
+    width: 80px;
+    cursor: pointer;
+}
+
+#expertise{
+text-align: center;
+margin: 20px;
+}
+#expertise hr{
+width: 50px;
+margin: auto;
+border:1px solid #39ff14;
+}
+
+#expertise-2{
+text-align: center;
+margin: 20px;
+}
+#expertise-2 hr{
+width: 50px;
+margin: auto;
+border:1px solid #39ff14;
+}
+
+.skill-button{
+    margin: auto;
+}
+.skill-button img{
+
+    margin: 10px;
+    padding: 30px 20px;
+    border:1px solid chartreuse;
+    flex-direction: row;
+    
+}
+
+
+.graph-web{
+    margin: 50px 0px;
+    
+}
+.graph-web a{
+    
+    padding: 10px 20px;
+    border:1px solid chartreuse;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;   
+    position: fixed;
+       
+}
+.svg{
+   
+    width: 400px;
+    margin: auto;
+   
+}
+.svg a{
+    
+    width: 80px;
+    border: 1px chartreuse;
+    margin: 60px 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;  
+       
+}
+
+.svg a:hover{
+    background-color: chartreuse;
+
+}
+
+.svg-centre{
+    margin: 20px 0px;
+}
+
+#services{
+    margin: auto;
+    display: inline-flex;
+    padding: 50px;
+    background-color: rgb(231, 228, 228);
+}
+
+mark {
+    background-color: chartreuse;
+    color: black;
+}
+
+
+#portfolio {
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+.port {
+
+    border: 1px chartreuse;
+}
+.port a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.brand{
+
+    background-color: black;
+    color: #39ff14;;
+    width: 500px;
+    height: 80%;
+    padding: 140px 30px;
+    display: inline-flex;
+    margin: 20px;
+}
+
+.illu{
+
+    background-color: black;
+    color: #39ff14;;
+    width: 500px;
+    height: 80%;
+    padding: 140px 30px;
+    margin: 0px 20px;
+
+}
+
+   
+ footer{
+     background-color: black;
+     color: white;
+     height: 100%;
+     width: 100%;
+     display: inline-flex;
+     justify-content: space-between;
+     padding: 50px 80px;
+ }
+
+ #main {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 8px 20px;
+    background-color: none;
+    margin: auto;
+   
+}
+#main2 {
+	display: flex;
+    align-items: center;
+    margin: auto;
+
+   
+}
+#mainContent{
+    margin-right: 20px;
+    
+}
+
+#sideContent{
+    margin-right:20px;
+}
+
+#sideContent2{
+    margin-right:20px;
+}
+
+#contact{
+    margin: 20px 0px;
+}
+
+#testimonials{
+    margin: 20px 0px;
+
+}
+
+/* Contact form stylings*/
+
+#cont-text{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#cont-text hr{
+    width: 50px;
+    margin: auto;
+    border:1px solid #39ff14;
+}
+
+.contact-items {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact {
+	background-color:rgb(231, 228, 228);
+    background-size: cover;
+    width: 100%;
+	background-position: center;
+	padding: 80px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-items h3 {
+	color: black;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contact-items input[type="text"] {
+	border: 10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width: 50%;
+}
+
+.contact-items textarea {
+	border: 10px;
+	height: 150px;
+	padding: 15px;
+	width: 50%;
+}
+
+.contact-items a {
+	color: black;
+	display: inline-block;
+	background-color: rgb(231, 228, 228);;
+	margin-top: 25px;
+	padding: 15px 80px;
+    text-decoration: none;
+    border:1px solid #39ff14;
+}
+
+.contact-items a:hover {
+	color: black;
+	background-color: #39ff14;
+
+}
+/* card styling */
+
+.wrapper{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.items{
+    text-align: center;
+    
+
+}
+
+
+/* Cards styling */
+
+.wrapper {
+
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    padding: 1%;
+}
+
+.item1 {
+    text-align: center;
+    padding: 1%;
+    flex: 1%;
+    margin: 20px 20px;
+}
+
+
+/* Card 2 styling */
+
+.item2 {
+   
+    text-align: center;
+    padding: 1%;
+    flex: 1%;
+    margin: 20px 20px;
+}
+
+
+/* Card 3 styling */
+
+.item3 {
+
+    text-align: center;
+    padding: 1%;
+    flex: 1%;
+    margin: 20px 20px;
+}
+
+.item4 {
+
+    text-align: center;
+    padding: 1%;
+    flex: 1%;
+    margin: 20px 20px;
+}
+
+/*modal styling*/
+
+.modal{
+    display: none;     /*hidden by default*/
+    position: fixed;   /*stays in place*/
+    z-index: 1; /*stays on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /*being able to scroll*/
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0.4); /*black w/opacity*/
+
+}
+
+
+/*modal content-box*/
+
+.modal-content{
+    background-color: rgb(231, 228, 228);;
+    margin: 15% auto; /* 15% from the top & on the centre*/
+    padding: 20px;
+    border: none;
+    width: 80%;
+    height: 50%;
+}
+
+/*close button*/
+.close {
+  color: blue;
+  float: right;
+  font-size: 30px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0px 50px;
+  }
+
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.6s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+.svg-button{
+
+    margin: 10px  ;
+    padding: 10px 10px;
+    border:1px solid chartreuse;
+    
+}
+
+#sideContent2 a{
+    text-decoration: none;
+    color: chartreuse;
+}
