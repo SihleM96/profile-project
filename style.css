@@ -17,18 +17,52 @@ nav {
     width: 100%;
     height: 60px;
     background-color: white;
+    margin-bottom: 40px;
     position: fixed;
-  
-  
 }
 
+.container{
+    height: 90vh;
+    background: url('img/cover.jpg') no-repeat center center/cover;
+    background-position: top;
+ 
+ }
+  
+ .container h1{
+   padding-top: 200px;
+   padding-left: 100px;
+  }
+ 
+  .container p{
+     padding-top: 10px 100px;
+     padding-left: 100px;
+ }
+ 
+ .container-2 {
+     height:100px;
+     width: 100%;
+     margin-top: 300px;
+     background: url('img/cover.jpg') no-repeat center center/cover;
+ }
+  
+ .container-2 h1{
+    padding-top: 200px;
+    padding-left: 100px;
+   }
+  
+ .container-2 p{
+      padding-top: 10px;
+      padding-left: 100px;
+  }
+ 
 
 nav ul li{
     float: left;
     list-style: none;
     padding: 0px 2px;
     position: relative;
-    margin: 0px;
+    margin: 0px 20px;
+   
     
 }
 
@@ -40,7 +74,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
     text-align: center;
-
+ 
 }
 nav ul li a:hover{
     color: #39ff14;
@@ -53,35 +87,6 @@ nav ul li ul{
     padding: 8px;
 }
 
-.container{
-   height: 75vh;
-   background: url('img/cover.jpg') no-repeat center center/cover;
-}
- 
-.container h1{
-  padding-top: 200px;
-  padding-left: 100px;
- }
-
- .container p{
-    padding-top: 10px;
-    padding-left: 100px;
-}
-
-.container-2 {
-    height: 75vh;
-    background: url('img/cover2.jpg') no-repeat center center/cover;
-}
- 
-.container-2 h1{
-   padding-top: 200px;
-   padding-left: 100px;
-  }
- 
-.container-2 p{
-     padding-top: 10px;
-     padding-left: 100px;
- }
 
 nav ul li:hover ul{
     display: block;
@@ -102,7 +107,14 @@ nav ul li ul li a:hover{
     width: 100%;
  }
 
- .container a{
+ /* Center Website */
+
+.main{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container a{
     display: inline-block;
     width: 80px;
     margin-left: 100px;
@@ -145,29 +157,7 @@ color: black;
     cursor: pointer;
 }
 
-#expertise{
-text-align: center;
-margin: 20px;
-}
-#expertise hr{
-width: 50px;
-margin: auto;
-border:1px solid #39ff14;
-}
 
-#expertise-2{
-text-align: center;
-margin: 20px;
-}
-#expertise-2 hr{
-width: 50px;
-margin: auto;
-border:1px solid #39ff14;
-}
-
-.skill-button{
-    margin: auto;
-}
 .skill-button img{
 
     margin: 10px;
@@ -225,7 +215,8 @@ border:1px solid #39ff14;
 #services{
     margin: auto;
     display: inline-flex;
-    padding: 50px;
+    padding: 100px;
+    width: 60%;
     background-color: rgb(231, 228, 228);
 }
 
@@ -234,48 +225,6 @@ mark {
     color: black;
 }
 
-
-#portfolio {
-
-    display: flex;
-    align-items: center;
-    margin: auto;
-
-}
-.port {
-
-    border: 1px chartreuse;
-}
-.port a{
-    text-decoration: none;
-    color: black;
-}
-
-
-
-.brand{
-
-    background-color: black;
-    color: #39ff14;;
-    width: 500px;
-    height: 80%;
-    padding: 140px 30px;
-    display: inline-flex;
-    margin: 20px;
-}
-
-.illu{
-
-    background-color: black;
-    color: #39ff14;;
-    width: 500px;
-    height: 80%;
-    padding: 140px 30px;
-    margin: 0px 20px;
-
-}
-
-   
  footer{
      background-color: black;
      color: white;
@@ -286,33 +235,6 @@ mark {
      padding: 50px 80px;
  }
 
- #main {
-	display: flex;
-	flex-flow: row wrap;
-	padding: 8px 20px;
-    background-color: none;
-    margin: auto;
-   
-}
-#main2 {
-	display: flex;
-    align-items: center;
-    margin: auto;
-
-   
-}
-#mainContent{
-    margin-right: 20px;
-    
-}
-
-#sideContent{
-    margin-right:20px;
-}
-
-#sideContent2{
-    margin-right:20px;
-}
 
 #contact{
     margin: 20px 0px;
@@ -350,7 +272,12 @@ mark {
 	padding: 80px 0px;
 	position: relative;
 	z-index: 1;
-}
+}<div class="address">
+<p>Graphic Designer</p>
+<p>Junior Web Designer</p>
+<p>siphesihlemambikimba@gmail.com</p>
+<p>073 989 1724</p>
+<hr>
 
 .contact-items h3 {
 	color: black;
@@ -387,129 +314,7 @@ mark {
 	background-color: #39ff14;
 
 }
-/* card styling */
 
-.wrapper{
-    text-align: center;
-    display: flex;
-    margin: auto;
-}
-
-.items{
-    text-align: center;
-    
-
-}
-
-
-/* Cards styling */
-
-.wrapper {
-
-    display: flex;
-    flex-flow: row wrap;
-    margin: auto;
-    padding: 1%;
-}
-
-.item1 {
-    text-align: center;
-    padding: 1%;
-    flex: 1%;
-    margin: 20px 20px;
-}
-
-
-/* Card 2 styling */
-
-.item2 {
-   
-    text-align: center;
-    padding: 1%;
-    flex: 1%;
-    margin: 20px 20px;
-}
-
-
-/* Card 3 styling */
-
-.item3 {
-
-    text-align: center;
-    padding: 1%;
-    flex: 1%;
-    margin: 20px 20px;
-}
-
-.item4 {
-
-    text-align: center;
-    padding: 1%;
-    flex: 1%;
-    margin: 20px 20px;
-}
-
-/*modal styling*/
-
-.modal{
-    display: none;     /*hidden by default*/
-    position: fixed;   /*stays in place*/
-    z-index: 1; /*stays on top */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; /*being able to scroll*/
-    background-color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0,0.4); /*black w/opacity*/
-
-}
-
-
-/*modal content-box*/
-
-.modal-content{
-    background-color: rgb(231, 228, 228);;
-    margin: 15% auto; /* 15% from the top & on the centre*/
-    padding: 20px;
-    border: none;
-    width: 80%;
-    height: 50%;
-}
-
-/*close button*/
-.close {
-  color: blue;
-  float: right;
-  font-size: 30px;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-.icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    margin: 0px 50px;
-  }
-
-
-/* Style the icon bar links */
-.icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.6s ease;
-    color: white;
-    font-size: 20px;
-  }
 
 .svg-button{
 
@@ -519,7 +324,248 @@ mark {
     
 }
 
-#sideContent2 a{
-    text-decoration: none;
-    color: chartreuse;
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px 20px;
+    text-align: center;
+    min-width: 125px;
+   
+  
 }
+
+.column img{
+    border:1px solid #39ff14;
+    padding: 15px;
+    align-content: center;
+
+  }
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10vw;
+ 
+}
+
+.row h3{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.expertise h3{
+    text-align: center;
+    margin: 10px 0px;
+}
+.expertise hr{
+width: 50px;
+margin: auto;
+border:1px solid #39ff14;
+}
+
+.expertise-2{
+text-align: center;
+margin: 20px;
+}
+.expertise-2 hr{
+width: 50px;
+margin: auto;
+border:1px solid #39ff14;
+}
+
+.skill-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+/* services styling */
+
+#service-row {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 225, 225);
+    padding: 60px 10px;
+    width: 60%;
+    margin: auto;
+   
+}
+#service-row .service-column{
+    width: 33%;
+}
+#service-row h4{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#service-row p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+
+.bar-container{
+    box-sizing: content-box;
+    height: 20px;
+    background-color:  rgb(68, 67, 67);
+    position: relative;
+    border-radius: 25px;
+}
+
+.bar-container > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: chartreuse;
+}
+
+.bar-container > span p{
+  color: indigo;
+}
+
+/* social media icons */
+
+.social-icons {
+    position: fixed; 
+    top: 40%;
+    -webkit-transform: translateY(-60%);    /* vertically align 50% from top of the screen */
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    margin: 10px 15px;
+}
+
+.social-icons a{
+    display: block;
+    text-align: center;
+    border:1px solid #39ff14;
+    padding: 16px;
+    transition: all 0.3s ease;
+   
+ }
+
+ .social-icons a:hover{
+     background-color:#39ff14;
+ }
+
+/* Card styling */
+
+.test-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 600px) {
+    .test-container {
+      flex-direction: column;
+    }
+  }
+
+
+  .test-container img{
+   max-width: 100%;
+   margin: 0px 10px;
+
+  }
+
+  .view-more {
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+ }
+
+
+
+  /* Carousel Element */
+  #carousel {
+    display: grid;
+    grid-template-columns: 30px 70vw 30px;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas:
+      "leftCaret content rightCaret"
+      "......... bullets ..........";
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* Carousel Carets */
+  #carousel #carousel-left,
+  #carousel #carousel-right {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 4em;
+    color: grey;
+    transition: all 0.2s linear;
+  }
+  #carousel #carousel-left:hover,
+  #carousel #carousel-right:hover {
+    color: black;
+  }
+  /* Carousel Grid Item Positioning */
+  #carousel #carousel-left {
+    grid-area: leftCaret;
+  }
+  #carousel #carousel-right {
+    grid-area: rightCaret;
+  }
+  #carousel #carousel-container {
+    grid-area: content;
+    position: relative;
+    width: 30%;
+    padding: 2%;
+    margin: 20px ;
+  }
+  #carousel #carousel-bullets {
+    grid-area: bullets;
+  }
+  /* Carousel Bullet Styles */
+  #carousel-bullets .carousel-bullet {
+    background: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    padding: 2px;
+    cursor: pointer;
+  }
+  #carousel #carousel-bullets .fas.fa-circle {
+    transition: all 0.2s linear;
+  }
+  #carousel #carousel-bullets .fas.fa-circle.active {
+    color: grey;
+  }
+  /* Carousel Slide Styles */
+  .carousel-slide {
+    opacity: 0;
+    z-index: -2;
+    transition: all 0.2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carousel-slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+ 
+
+
+

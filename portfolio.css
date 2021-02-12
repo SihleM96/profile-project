@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+
+    font-family: 'Assistant', sans-serif;
+    line-height: 1.4;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+
+}
+
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+    position: fixed;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 0px 2px;
+    position: relative;
+    margin: 0px 20px;
+   
+    
+}
+
+nav ul li a{
+    display: block;
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+ 
+}
+nav ul li a:hover{
+    color: #39ff14;
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+}
+
+
+nav ul li:hover ul{
+    display: block;
+    color: #39ff14;
+}
+
+nav ul li ul li{
+    width: 180px;
+ }
+
+nav ul li ul li a{
+   padding: 10px 15px;
+}
+
+nav ul li ul li a:hover{
+    background-color: #39ff14;
+    color: black;
+    width: 100%;
+ }
+
+ /* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+h3 {
+    
+    margin: 5px 0px;
+}
+
+  .row {
+    margin: 8px -16px;
+  }
+  .grid{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  
+/* social media icons */
+
+.social-icons {
+    position: fixed; 
+    top: 40%;
+    -webkit-transform: translateY(-60%);    /* vertically align 50% from top of the screen */
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    margin: 10px 15px;
+}
+
+.social-icons a{
+    display: block;
+    text-align: center;
+    border:1px solid #39ff14;
+    padding: 16px;
+    transition: all 0.3s ease;
+   
+ }
+
+ .social-icons a:hover{
+     background-color:#39ff14;
+ }
+
+ .content a{
+    display: inline-block;
+    width: 80px;
+    padding:6px 10px;
+    border:1px solid #39ff14;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 0px;
+    align-items: center;
+ }
+
+.grid a:hover{
+    background-color: #39ff14;
+}
+ 
+ footer{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+#dev-head{
+    text-align: center;
+    margin: 0 10px;
+}
